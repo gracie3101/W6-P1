@@ -8,7 +8,7 @@ function draw () {
     background (0,0,255)
     rectMode(CORNER)
     fill (255)
-    textAlign(RIGHT)
-    textSize(70)
-    text (phrase,500,400,10,)
+    textAlign(RIGHT, BOTTOM)
+    textSize(65)
+    text (phrase,280,-10,300,600)
 }
